@@ -15,3 +15,6 @@ RUN apk add bash
 RUN apk add python \
             python-dev \
             py-pip
+
+# install nginx
+RUN apk add nginx
